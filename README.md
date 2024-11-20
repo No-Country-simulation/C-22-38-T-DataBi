@@ -12,7 +12,7 @@
 
 ## Tecnologías: 
 
-### IDE:VSCode,RStudio - Lenguaje: Python,R - Notebook:Jupyter - Library:Matplotlib,Seaborn,Scikit.Learn,Kaggle - Plataform: GitHub,Power.Bi,Jira,RStudio -  Version.Control: Git -  Chat: Slack-Discord-Whatsapp - Tool: Google.Meet , Google.Drive
+### IDE:VSCode - Lenguaje: Python,R - Notebook:Jupyter - Library:Matplotlib,Seaborn,Scikit.Learn,Kaggle - Plataform: GitHub,Power.Bi,Jira,RStudio -  Version.Control: Git -  Chat: Slack-Discord-Whatsapp - Tool: Google.Meet , Google.Drive
 
 ## Enlaces : 
 ### https://github.com/No-Country-simulation/C-22-38-T-DataBi
