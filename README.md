@@ -6,7 +6,7 @@
 
 ## Industria: Ciberseguridad
 ## Colaboradores:
-### 1.- Florencia Saldico (Data Analyst)
+### 1.- Florencia Saldico (Data Analyst) https://www.linkedin.com/in/fsaldico
 ### 2.- Marisol Quinteros (Data Science) https://www.linkedin.com/in/marisol-quinteros-bohorquez-1r19
 ### 3.- Elsa Beltrán (Machine Learning) https://www.linkedin.com/in/elsa-beltran-vivanco
 
