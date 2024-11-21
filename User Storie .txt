@@ -1,6 +1,16 @@
 User Storie 1
-Como empresa de ciberseguridad que protege los datos de nuestros clientes, queremos analizar continuamente las características de las URls de phishing para mejorar nuestros algoritmos de detección. 
+Como empresa de ciberseguridad que protege los datos de nuestros clientes, 
+queremos analizar continuamente las características de las URls de phishing 
+para mejorar nuestros algoritmos de detección. 
 
 
 User Storie 2
-Como empresa de ciberseguridad que protege los datos sensibles de nuestros clientes, queremos implementar un sistema avanzado en machine learning, para asegurar que nuestros sistemas de seguridad se mantengan al día.
+Como empresa de ciberseguridad que protege los datos sensibles de nuestros clientes, 
+queremos implementar un sistema avanzado en machine learning, para asegurar que nuestros 
+sistemas de seguridad se mantengan al día.
+
+
+User Storie 3
+Como persona que busca navegar con seguridad en internet,
+busco una aplicacion que pueda instalar en mi notebook o en mi movil y cada vez que navegue
+por internet, esta aplicacion, "me alerte", de los peligros encontrados en mi navegacion
