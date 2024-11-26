@@ -16,3 +16,8 @@
 
 ## Enlaces : 
 ### https://github.com/No-Country-simulation/C-22-38-T-DataBi
+
+## Etapas del Proyecto:
+### Seleccionar un confiable,dataset, para este proyecto nuestras fuentes de origen fueron:
+### https://data.mendeley.com/datasets/vfszbj9b36/1
+### https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls/data
