@@ -1,6 +1,10 @@
 body{
-    background-color: #023b46;
+    background-color: rgba(5, 80, 24, 0.75);
 }
 h1{
     color: aliceblue;
+}
+
+.btn{
+   text-emphasis-color: white; 
 }
