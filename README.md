@@ -27,7 +27,7 @@
 ### Preparación del dataset, esto implica, filtrar duplicados, columnas vacías, valores NaN..etc
 ### Agregar , desde nuestro análisis previo, nuevas columnas al dataset, que enriquezcan el análisis de cada Url, adjunto
 ### Normalizar sus valores,esto permitirá acotar, cada dato de cada registro entre el rango [0, 1]
-### Aplicar al dataset ya normalizado la varianza a sus valores, esto nos permitirá seleccionar columnas, es decir, se eliminarán aquellas columnas cuya varianza se acerque a 0
+### Aplicar al dataset ya normalizado, la varianza a sus valores, esto nos permitirá seleccionar columnas, es decir, se eliminarán aquellas columnas cuya varianza se acerque a 0
 
 ## Etapa 2:
 ## Etapa 3:
