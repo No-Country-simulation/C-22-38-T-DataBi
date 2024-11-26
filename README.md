@@ -17,7 +17,17 @@
 ## Enlaces : 
 ### https://github.com/No-Country-simulation/C-22-38-T-DataBi
 
-## Etapas del Proyecto:
-### Seleccionar un confiable,dataset, para este proyecto nuestras fuentes de origen fueron:
+# Etapas del Proyecto:
+## Etapa 0:
+### Seleccionar un confiable dataset, para este proyecto nuestras fuentes de origen fueron:
 ### https://data.mendeley.com/datasets/vfszbj9b36/1
 ### https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls/data
+
+## Etapa 1:
+### Preparacion del dataset, esto implica, filtrar duplicados, columnas vacias, valores NaN..etc
+### Agregar , desde nuestro análisis previo, nuevas columnas al dataset, que enriquezcan el análisis de cada Url, adjunto
+### Normalizar sus valores,esto permitirá acotar, cada dato de cada registro entre el rango [0, 1]
+### Aplicar al dataset ya normalizado la varianza de sus valores, esto nos permitira seleccionar columnas, es decir, se eliminaran aquellas columnas cuya varianza se acerque a 0
+
+## Etapa 2:
+## Etapa 3:
