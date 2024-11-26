@@ -30,4 +30,12 @@
 ### Aplicar al dataset ya normalizado, la varianza a sus valores, esto nos permitirá seleccionar columnas, es decir, se eliminarán aquellas columnas cuya varianza se acerque a 0
 
 ## Etapa 2:
+### Seleccionamos 3 algoritmos de automatización, para crear un modelo predictivo con Machine Learning
+### Los algoritmos a probar son:
+### 1.- Gradiente de Boosting
+### 2.- Random Forest
+### 3.- Regresión Logística
+### Seleccionaremos el algoritmo, que , al ser entrenado, nos entregue el "Mejor Resultado", el  criterio para definir el "Mejor Resultado", implica maximizar los aciertos y disminuir los errores
+
 ## Etapa 3:
+### Utilizar el modelo ya entrenado y seleccionado
