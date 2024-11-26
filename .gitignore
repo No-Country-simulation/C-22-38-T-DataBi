@@ -304,7 +304,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
+.c22_dbi
 # pkgdown site
 docs/
 
