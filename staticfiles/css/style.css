@@ -12,14 +12,16 @@ h1{
     background-color:rgba(11, 5, 8, 0.66);
     color: aliceblue;
 }
-.form-control{
-
-    width: 1050px;
-    height: 70px;
+.form-control-md{
+    width: 795px;
     font-size: 35px;
 }
-.base{
-    width: 1100px;
+.form-control{
+    width: 280px;
+    font-size: 35px;
+}
+h4{
+    
     height: 85px;
     background:rgba(11, 5, 8, 0.66);
     color: aliceblue;

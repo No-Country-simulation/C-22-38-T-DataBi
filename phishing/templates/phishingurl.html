@@ -10,12 +10,19 @@
             <div class="mx-2">
                 <form action="" method='POST'>
                     {% csrf_token %}
-                    <div class="container">
+                    
 
-                    <input type="text" name="customer_url" placeholder="Ingresa URL" class="form-control" hight="20px"/>
-                    <br/>
-                    <button class="boton2" style="color:white;">ENVIAR</button>
-                    </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-8">    
+                                <input type="text" class="form-control-md" name="customer_url" placeholder="Ingresa URL"  hight="20px"/>
+                                </div>
+                                <div class="col-4">
+                                <button class="form-control btn bg-dark" style="color:white;">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    
                 </form>
             
             </div>
