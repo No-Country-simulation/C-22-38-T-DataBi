@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phishing en la Web</title>
-    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://js.stripe.com https://js.stripe.com/v3/;">
     <title>SharkFish</title>
@@ -20,7 +19,7 @@
 {% include 'assets/navbar.html' %}
 </div>
 {% block content %}
-
+{% include 'phishingurl.html' %}
 {% endblock %}    
        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>

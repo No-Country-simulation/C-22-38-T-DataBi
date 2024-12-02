@@ -1,0 +1,23 @@
+{% load static %}
+    
+    <div class="container text-center">
+        
+        
+        <br/><br/> <br/> <br/> <br/><br/><br/>
+        <button class="base" style="color:white; background:rgba(11, 5, 8, 0.66);">
+            <h1>SHARK<img src="{% static 'img/logo_m.webp' %}" alt="imagen logo">FISH-2014</h1></button>
+        <br/><br/>
+        <form action="" method='POST'>
+            {% csrf_token %}
+        <div class="container">
+                 
+        <input type="text" name="customer_url" placeholder="Ingresa URL" class="form-control w-100" hight="20px"/>
+        <br/>
+        <button class="boton2" style="color:white;">ENVIAR</button>
+        </form>
+        </div> 
+    
+        <br/><br/><br/><br/>    <br/><br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
+    
+
