@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f0f0, #1c1b1b);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #0f0f0f;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.url-input {
+    width: 80%; /* 80% del ancho */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 36px;
+}
+
+.validate-button {
+    width: 20%; /* 20% del ancho */
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black; /* Color negro */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados pero mantiene forma rectangular */
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.validate-button:hover {
+    background-color: #444; /* Color más claro al pasar el mouse */
+}
+
+.footer {
+    width: 100%;
+    background-color: black; /* Color negro para el footer */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 2px 0; /* Espaciado vertical */
+    height: 95px;
+}
+.logo-spacing{
+    height: 100px;
+}
+.footer-spacing {
+    height: 450px; /* Ajusta la altura según sea necesario */
+}

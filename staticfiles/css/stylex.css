@@ -13,11 +13,11 @@ h1{
     color: aliceblue;
 }
 .form-control-md{
-    width: 795px;
+    width: auto;
     font-size: 35px;
 }
 .form-control{
-    width: 280px;
+    width: auto;
     font-size: 35px;
 }
 h4{

@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def phishing_view(request):
-    return render(request,'')
+    return render(request,'phishingurl24.html')
