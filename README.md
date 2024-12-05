@@ -42,3 +42,38 @@
 
 ## Etapa 3:
 ### Utilizar el modelo ya entrenado y seleccionado
+
+# Semana 1
+### Iniciamos el estudio a partir de una url, ejemplo:
+### "www.python.com/es/area234GFr/caracteristicas"
+### Nuestro enfoque para crear nosotras cada campo y por lo tanto tener el control para diseñar asi el mejor modelo de entrenamiento, no lleva rigurosamente a crear campos, desde el largo de la url, detectar subdominios, hosting, caracteres especiales, el alfabeto, mayusculas y minusculas..etc
+### Estudiando y analizando el problema de phishing, aprendemos que el problema para ser resuelto con ML se debe aplicar un modelo de aprendizaje automatizado, a raiz de esta informacion, seleccionamos 4 algoritmos: 
+### a.- Regresión Logistica
+### b.- Gradiente de Bootstring
+### c.- Random Forest
+### d.- Redes Neuronales
+### Al contar con un primer dataset version 1.0, se han entrenado c/u de estos modelos:con sus respectivos resultados
+![alt text](RL.png)
+![alt text](RF.png)
+![alt text](GB.png)
+![alt text](RN.png)
+### Se concluye que invertir tiempo en preparar un mejor dataset, mejorara los resultados y pondra mas dificil la seleccion del mejor algoritmo de prediccion
+
+# Semana 2
+### Nuestro objetivo mas ambicioso, como equipo, es generar una deteccion dinamica de phishing,desde un input de un sitio web, para ello se entrena y busca el mejor modelo de prediccion
+
+### En base a alcazar nuestro objetivo mas alto, se intala en el repo de github, Django un Framework vinculado a Python, tremendamente robusto y solido. Se inicia la preparacion del mismo, se simplificara para poner foco y enfasis en lograr recibir e interpretar una url externa y mostrar dinamicamente por medio del modelo ya  entrenado, que tipo de url se ingreso, phishing o segura.
+![alt text](intf_local_.png)
+
+# Semana 3
+### Contamos con el deploy del nuestro sitio web, en Render
+![alt text](DP_.png)
+### El equipo esta dividido trabajando en:
+### 1.-Visializacion grafica del dataset que se utiliza para aplicar el entrenamiento y seleccion del Modelo, se trabaja en mostrar los datos relevantes del dataset, para pintar en un dashboard los mas relevantes
+### 2.- Se trabajoa en mejorar el logo de Shark|Fish
+### 3.- Estudiaremos pronto si incluiremos Cloudinary para imagenes
+### 4.- Analizamos que herramienta para graficar esta data y mostrar su informacion de manera dinamica utilizaremos Power Bi o RStudio
+
+### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr la prediccion y alcanzar nuestro objetivo " Crear un sitio web que nos permita por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir si, esta Url es phishing o segura, pintando esa informacion al usuario
+### Adjunto primeros inicios de integracion de codigo en Django + Vista + Template:
+
