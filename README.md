@@ -47,7 +47,7 @@
 ### Iniciamos el estudio a partir de una url, ejemplo:
 ### "www.python.com/es/area234GFr/caracteristicas"
 ### Nuestro enfoque para crear nosotras cada campo y por lo tanto tener el control para diseñar asi el mejor modelo de entrenamiento, nos lleva rigurosamente a crear campos, desde, el largo de la url, detectar subdominios, hosting, caracteres especiales, el alfabeto, mayusculas y minusculas..etc
-### Estudiando y analizando el problema de phishing, aprendemos que, el problema para ser resuelto con ML, se debe aplicar un modelo de aprendizaje automatizado, a raiz de esta informacion, seleccionamos 4 algoritmos: 
+### Estudiando y analizando el problema de phishing, aprendemos que, al problema de phishing, para ser resuelto con ML, se debe aplicar un modelo de aprendizaje automatizado, a raiz de esta informacion, seleccionamos 4 algoritmos: 
 ### a.- Regresión Logistica
 ### b.- Gradiente de Bootstring
 ### c.- Random Forest
@@ -57,16 +57,16 @@
 ![alt text](RF.png)
 ![alt text](GB.png)
 ![alt text](RN.png)
-### Se concluye que invertir tiempo en preparar un mejor dataset, mejorara los resultados y ofrecera mayor competencia al momento de la seleccion del mejor algoritmo de prediccion
+### Se concluye que, invertir tiempo en, preparar un mejor dataset,incrementando columnas de interes, mejorara los resultados y ofrecera mayor competencia al momento de la seleccion del mejor algoritmo de prediccion
 
 # Semana 2
 ### Nuestro objetivo mas ambicioso, como equipo, es generar una deteccion dinamica de phishing,desde un sitio web, para ello se entrena y busca el mejor modelo de prediccion
 
-### En base a alcazar nuestro objetivo mas alto, se instala en el repo de github, Django, un Framework vinculado a Python, tremendamente robusto y solido. Se inicia la preparacion del mismo, se simplificara para poner foco y enfasis en lograr recibir e interpretar una url externa y mostrar dinamicamente por medio del modelo ya  entrenado, que tipo de url se ingreso, phishing o segura.
+### Para alcazar nuestro objetivo mas alto, se instala en el repo de github, Django, un Framework vinculado a Python, tremendamente robusto y solido. Se inicia la preparacion del mismo, se simplificara para poner foco y enfasis en lograr recibir e interpretar una url externa y mostrar dinamicamente por medio del modelo ya  entrenado, que tipo de url se ingreso, phishing o segura.
 ![alt text](intf_local_.png)
 
 # Semana 3
-### Contamos ya con el deploy de nuestro sitio web, en Render
+### Contamos ya, con el deploy de nuestro sitio web, en Render
 ![alt text](DP_.png)
 ### El equipo esta enfocado, trabajando en:
 ### 1.-Visializacion grafica del dataset, que se utiliza para aplicar el entrenamiento y seleccion del Modelo, se trabaja en mostrar los datos del dataset, para pintar en un dashboard los mas relevantes
@@ -75,7 +75,10 @@
 ### 4.- Analizamos que herramienta para graficar esta data y mostrar su informacion de manera dinamica en un dashboard utilizaremos Power Bi o RStudio
 
 ### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr asi la prediccion y alcanzar nuestro objetivo mayor, " Crear un sitio web que nos permita, por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir, si, esta Url es phishing o segura, pintando esa informacion al usuario
-### Adjunto primeros inicios de integracion de codigo en Django + Vista + Template:
+### Adjunto primeros inicios de integracion de codigo, en Django + Vista + Template:
 ![alt text](input_url.png)
+### Ingresamos Url desde pagina web
 
 ![alt text](integracion_01.png)
+
+### Se captura url ingresada y se conecta a vista + template de Django, esto da inicio a los posteriores ajustes para la interpretacion y su pediccion
