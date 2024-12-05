@@ -52,7 +52,7 @@
 ### b.- Gradiente de Bootstring
 ### c.- Random Forest
 ### d.- Redes Neuronales
-### Al contar con un primer dataset version 1.0, se han entrenado c/u de estos modelos: con sus respectivos resultados
+### Al contar con un primer dataset version 1.0, se a entrenado c/u de estos modelos: con sus respectivos resultados
 ![alt text](RL.png)
 ![alt text](RF.png)
 ![alt text](GB.png)
