@@ -57,7 +57,7 @@
 ![alt text](RF.png)
 ![alt text](GB.png)
 ![alt text](RN.png)
-### Se concluye que invertir tiempo en preparar un mejor dataset, mejorara los resultados y pondra mas dificil la seleccion del mejor algoritmo de prediccion
+### Se concluye que invertir tiempo en preparar un mejor dataset, mejorara los resultados y ofrecera mayor competencia al momento de la seleccion del mejor algoritmo de prediccion
 
 # Semana 2
 ### Nuestro objetivo mas ambicioso, como equipo, es generar una deteccion dinamica de phishing,desde un sitio web, para ello se entrena y busca el mejor modelo de prediccion
