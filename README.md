@@ -62,18 +62,18 @@
 # Semana 2
 ### Nuestro objetivo mas ambicioso, como equipo, es generar una deteccion dinamica de phishing,desde un input de un sitio web, para ello se entrena y busca el mejor modelo de prediccion
 
-### En base a alcazar nuestro objetivo mas alto, se intala en el repo de github, Django un Framework vinculado a Python, tremendamente robusto y solido. Se inicia la preparacion del mismo, se simplificara para poner foco y enfasis en lograr recibir e interpretar una url externa y mostrar dinamicamente por medio del modelo ya  entrenado, que tipo de url se ingreso, phishing o segura.
+### En base a alcazar nuestro objetivo mas alto, se instala en el repo de github, Django un Framework vinculado a Python, tremendamente robusto y solido. Se inicia la preparacion del mismo, se simplificara para poner foco y enfasis en lograr recibir e interpretar una url externa y mostrar dinamicamente por medio del modelo ya  entrenado, que tipo de url se ingreso, phishing o segura.
 ![alt text](intf_local_.png)
 
 # Semana 3
-### Contamos con el deploy del nuestro sitio web, en Render
+### Contamos ya con el deploy de nuestro sitio web, en Render
 ![alt text](DP_.png)
-### El equipo esta dividido trabajando en:
-### 1.-Visializacion grafica del dataset que se utiliza para aplicar el entrenamiento y seleccion del Modelo, se trabaja en mostrar los datos relevantes del dataset, para pintar en un dashboard los mas relevantes
-### 2.- Se trabajoa en mejorar el logo de Shark|Fish
+### El equipo esta enfocado, trabajando en:
+### 1.-Visializacion grafica del dataset, que se utiliza para aplicar el entrenamiento y seleccion del Modelo, se trabaja en mostrar los datos relevantes del dataset, para pintar en un dashboard los mas relevantes
+### 2.- Se trabaja en mejorar el logo de Shark|Fish
 ### 3.- Estudiaremos pronto si incluiremos Cloudinary para imagenes
-### 4.- Analizamos que herramienta para graficar esta data y mostrar su informacion de manera dinamica utilizaremos Power Bi o RStudio
+### 4.- Analizamos que herramienta para graficar esta data y mostrar su informacion de manera dinamica en un dashboard utilizaremos Power Bi o RStudio
 
-### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr la prediccion y alcanzar nuestro objetivo " Crear un sitio web que nos permita por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir si, esta Url es phishing o segura, pintando esa informacion al usuario
+### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr la prediccion y alcanzar nuestro objetivo " Crear un sitio web que nos permita, por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir, si, esta Url es phishing o segura, pintando esa informacion al usuario
 ### Adjunto primeros inicios de integracion de codigo en Django + Vista + Template:
 
