@@ -3,12 +3,12 @@
 ## No-Country - Area Data-Bi
 # Shark![alt text](logo_m.webp)Fish - Análisis y Proyección de Seguridad Web para la detección de Phishing
 ### Objetivo: 
-## Este proyecto tiene como objetivo analizar y proyecctar en el ámbito de la seguridad web, para detectar phishing.
+## Este proyecto tiene como objetivo analizar + proyectar, en el ámbito de la seguridad web, para detectar phishing.
 
 ### Industria: Ciberseguridad
 ## Colaboradores:
 ### 1.- Florencia Saldico (Data Analyst) https://www.linkedin.com/in/fsaldico
-### 2.- Marisol Quinteros (Data Science) www.linkedin.com/in/marisol-quinterosbz-1r9
+### 2.- Marisol Quinteros (Data Science) https://www.linkedin.com/in/marisol-quinterosbz-1r9
 ### 3.- Elsa Beltrán (Machine Learning) https://www.linkedin.com/in/elsa-beltran-vivanco
 
 ## Tecnologías: 
