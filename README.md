@@ -1,8 +1,9 @@
 # C-22-38-T-DataBi
-### Titulo del proyecto:   
-# Shark![alt text](logo_m.webp)Fish
-## Descripción: 
-## "Este proyecto tiene como objetivo detectar urls peligrosas"
+### Simulación Laboral de No-Country 
+## No-Country - Area Data-Bi
+# Shark![alt text](logo_m.webp)Fish - Análisis y Proyección de Seguridad Web para la detección de Phishing
+## Objetivo: 
+## Este proyecto tiene como objetivo analizar y proyecctar en el ámbito de la seguridad web, para detectar phishing.
 
 ## Industria: Ciberseguridad
 ## Colaboradores:
