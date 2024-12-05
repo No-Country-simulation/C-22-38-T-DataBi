@@ -76,4 +76,6 @@
 
 ### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr la prediccion y alcanzar nuestro objetivo " Crear un sitio web que nos permita, por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir, si, esta Url es phishing o segura, pintando esa informacion al usuario
 ### Adjunto primeros inicios de integracion de codigo en Django + Vista + Template:
+![alt text](input_url.png)
 
+![alt text](integracion_01.png)
