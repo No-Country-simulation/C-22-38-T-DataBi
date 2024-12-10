@@ -1,7 +1,47 @@
 {% load static %}
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-     
-      <a class="navbar-brand" href="#"><img src="{% static 'img/logo.png' %}"></a>
-     </div>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004d00;">
+  <div class="container-fluid">
+      <div>
+      <a class="navbar-brand" href="">
+          <img src="{% static 'images/logo.png' %}" alt="Logo" class="img-fluid"> <!-- Logo -->
+      </a>
+      </div>
+      <h1 style="color:white;">Shark <img src="{% static 'images/logo_m.webp' %}" alt="Logo" class="img-fluid"> Fish-2024</h1>
+      <div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              {% if not user.is_authenticated %}
+              <li class="nav-item">
+                  <a class="nav-link" style="color:white;" href=""><div><i class="fa-solid fa-house-user"></i> Inicio</a>
+                  </div></li>
+              <li class="nav-item">
+                  <a class="nav-link" style="color:white;" href="#"><div><i class="fa-solid fa-radiation"></i> Phishing</a>
+                  </div></li>
+              {% endif %}
+              {% if user.is_authenticated %}
+              <li class="nav-item">
+                  <a class="nav-link" style="color:white;" href="#"><div><i class="fa-solid fa-file-signature"></i></div>Servicios</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" style="color:white;" href="#"><div><i class="fa-solid fa-address-card"></i></div>Contacto</a>
+              </li>
+              {% endif %}
+              <div class="col-2 ms-auto">
+                  <div class="row">
+                      {% if user.is_authenticated %}
+                      <li class="nav-item">
+                          {% csrf_token %}
+                          <a class="nav-link" style="color:white;" href="{% url 'perfil_usuario' %}"><div><i class="fa-regular fa-user"></i></div><strong>{{ user.username }}</strong> </a>
+                          <a class="nav-link" style="color:white;" href="{% url 'login' %}"><div><i class="fa fa-right-from-bracket"></i></div> Log Out </a>
+                      </li>
+                      {% endif %}
+                  </div>
+              </div>
+          </ul>
+      </div>
+  </div>
+</nav>
