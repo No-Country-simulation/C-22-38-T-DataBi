@@ -3,12 +3,12 @@
     <div class="container text-center">
         
         <h1> SHARK | FISH </h1>
-        <div class="logo-spacing"></div>
+        
         <form action="" method='POST'>
             {% csrf_token %}
         <div class="input-container">
-            
-            <input type="text" placeholder="https://tu-url.com" name="url_externa" class="url-input">
+            <div class="logo-spacing"></div>
+            <input id="phishing" type="text" placeholder="https://tu-url.com" name="url_externa" class="url-input">
             <button class="validate-button">Validar</button>
             
         </div>
