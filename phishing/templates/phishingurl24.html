@@ -1,17 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="container text-center">
-        
-        <h1> SHARK | FISH </h1>
-        
         <form action="" method='POST'>
             {% csrf_token %}
+            <h1> SHARK | FISH </h1>
         <div class="input-container my-5 py-5">
             <div class="logo-spacing"></div>
             <input id="phishing" type="text" placeholder="https://tu-url.com" name="url_externa" class="url-input">
             <button class="validate-button">Validar</button>
-            
-        </div>
+        
+        
+    </div>
         </form>
     </div>
     
