@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
-    <link href="{% static 'css/styles2.css'%}" rel="stylesheet" type="text/css"/>
+    <link href="{% static 'css/styles.css'%}" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div class="container-fluid">
@@ -26,9 +26,9 @@
             
             
             <!-- Espacio entre el contenido y el footer -->
-            <div class="footer-spacing"></div>
+            
 
-             
+             {% include 'assets/footer.html' %}
             {% endblock %} 
         </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

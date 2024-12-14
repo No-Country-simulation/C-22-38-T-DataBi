@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+import cloudinary_storage
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'phishing.apps.PhishingConfig',
-    'web.apps.WebConfig'
+    'web.apps.WebConfig',
+    'cloudinary',
+    'cloudinary_storage'
 ]
 
 MIDDLEWARE = [
@@ -128,7 +131,7 @@ STATICFILES_DIR=[
     BASE_DIR/"web/static",
 ]
 
-#STATIC_URL = 'static/'
+STATIC_URL = 'static/'
 STATIC_URL = 'staticfiles/'
 STATIC_ROOT= BASE_DIR / "staticfiles"
 MEDIA_URL = '/media/'
@@ -146,3 +149,9 @@ LOGIN_REDIRECT_URL = '/phishingurl/'
 
 LOGOUT_REDIRECT_URL='/phishingurl/'
 
+CLOUDINARY_STORAGE={
+    CLOUDE_NAME:= os.environ.get('CLOUD_NAME'),
+    API_KEY:= os.environ.get('API_KEY'),
+    API_SECRET:=os.environ.get('API_SECRET'),
+    SECURE:= True
+}

@@ -9,10 +9,31 @@ body {
     align-items: center;
 }
 
+body {
+    text-align: center; /* Centra el contenido en línea dentro del body */
+}
+
+.centrar {
+    display: block; /* Cambia la imagen a un elemento de bloque */
+    margin-left: auto; /* Márgenes automáticos para centrar */
+    margin-right: auto;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la pantalla */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.botonphis{
+    background-color: red;
+}
+.botonsafe{
+    background-color: green;
+}
 .container {
     text-align: center;
 }
-
+img {
+    max-width: 50%; /* Asegura que la imagen no exceda el ancho de la pantalla */
+    height: auto; /* Mantiene la relación de aspecto */
+}
 h1 {
     color: #0f0f0f;
 }
@@ -57,7 +78,7 @@ h1 {
     height: 95px;
 }
 .logo-spacing{
-    height: 100px;
+    height: 50px;
 }
 .footer-spacing {
     height: 450px; /* Ajusta la altura según sea necesario */
