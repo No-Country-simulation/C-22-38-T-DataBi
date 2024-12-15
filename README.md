@@ -95,7 +95,7 @@
 ![alt text](phishing_.png)
 ### Aqui observamos una prediccion de "Inseguridad" en la Url ingresada
 
-## Nustro sitio de Deploy en Render luce asi
+## Nuestro sitio de Deploy en Render luce asi
 ![alt text](rend_01.png)
 ![alt text](rend_02.png)
 
