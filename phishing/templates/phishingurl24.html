@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-    {% for pic in photo %}
+    
     <div class="container text-center">
         <form action="{% url 'phishing' %}" method='POST'>
             {% csrf_token %}
             <img class="centrar" src="https://res.cloudinary.com/dhggemani/image/upload/v1734234560/vlp1cofz1l3xz14nkat0.png" alt='logo-fondo'>
-            {% endfor %}
+            
         <div class="input-container my-5 py-5">
             <input id="phishing" type="text" placeholder="https://tu-url.com" name="url_externa" class="url-input">
             <button class="validate-button">Validar</button>
