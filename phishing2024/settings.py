@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'phishing.apps.PhishingConfig',
     'web.apps.WebConfig',
     'cloudinary',
-    'cloudinary_storage'
+    'cloudinary_storage',
 ]
 
 MIDDLEWARE = [

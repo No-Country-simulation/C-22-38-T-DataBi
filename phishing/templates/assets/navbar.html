@@ -3,7 +3,7 @@
   <div class="container-fluid">
       <div>
       <a class="navbar-brand" href="">
-          <img src="{% static '/img/shark11_12.02.png' %}" alt="Logo" class="img-fluid"> <!-- Logo -->
+          <img src="https://res.cloudinary.com/dhggemani/image/upload/v1734234339/xmkt4qqzhr5lzhihg2em.png" alt="Logo" class="img-fluid"> <!-- Logo -->
       </a>
       </div>
       <h1 style="color:white;">Shark|Fish-2024</h1>
@@ -35,8 +35,8 @@
                       {% if user.is_authenticated %}
                       <li class="nav-item">
                           {% csrf_token %}
-                          <a class="nav-link" style="color:white;" href="{% url 'perfil_usuario' %}"><div><i class="fa-regular fa-user"></i></div><strong>{{ user.username }}</strong> </a>
-                          <a class="nav-link" style="color:white;" href="{% url 'login' %}"><div><i class="fa fa-right-from-bracket"></i></div> Log Out </a>
+                          <a class="nav-link" style="color:white;" href="{% url 'home' %}"><div><i class="fa-regular fa-user"></i></div><strong>{{ user.username }}</strong> </a>
+                          <a class="nav-link" style="color:white;" href="{% url 'phishingurl' %}"><div><i class="fa-solid fa-radiation"></i></div> Log Out </a>
                       </li>
                       {% endif %}
                   </div>

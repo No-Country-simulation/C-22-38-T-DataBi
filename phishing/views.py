@@ -7,7 +7,7 @@ from django.shortcuts import render, redirect
 from .forms import ExternalDataForm
 import joblib
 import numpy as np
-# import rpy2.robjects as robjects
+from .models import LibraryC
 from django.http import HttpResponse
 
 
@@ -18,11 +18,15 @@ feature_names_in_ = ['has_https', 'has_http', 'has_ftp', 'has_www', 'has_ip', 'u
 
 
 def home_view(request):
+    #photo= LibraryC.objects.all()
+    #cloudy_img={'photo':photo}
     return render(request,'home.html')
 
 
 def phishing_view(request):
-    return render(request,'phishingurl24.html')
+    photo= LibraryC.objects.all()
+    cloudy_img={'photo':photo}
+    return render(request,'phishingurl24.html',{'photo':photo})
 
 #data = os.path.join('ensayo_','datos6_solo_url_status.csv')
 def features_view(url):
@@ -247,11 +251,13 @@ def external_data_view(request):
             print("prediccion",resultado)
             predictions_output_file = os.path.join(
                 'ensayo_', 'predictionsRN_21(-1).csv')
-            df_analysis.to_csv(predictions_output_file, index=False)    
+            df_analysis.to_csv(predictions_output_file, index=False)  
+            photo=LibraryC.objects.all()  
             # return redirect('mostrarcsv')
             # return mostrar_csv_view(predictions_output_file)
-            return render(request, 'prediccion.html', {'url': url, 'prediction': resultado})   
+            cloudy_img={'photo':photo}
+            return render(request, 'prediccion.html', {'url': url, 'prediction': resultado,'photo':photo})   
         else:
             form = ExternalDataForm()
-    return render(request, 'phishingurl24.html')
+    return render(request, 'phishingurl24.html',{'photo':photo})
 
