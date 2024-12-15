@@ -76,7 +76,6 @@ pytz==2024.2
 pyzmq==26.2.0
 requests==2.32.3
 rich==13.9.4
-rpy2==3.5.17
 scikit-learn==1.5.2
 scipy==1.14.1
 seaborn==0.13.2
