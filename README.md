@@ -17,6 +17,9 @@
 
 ## Enlaces : 
 ### https://github.com/No-Country-simulation/C-22-38-T-DataBi
+### https://docs.google.com/document/d/1j2Ob6vEjVb7CQWHtOpqNQO-oc4sK0oOYYo03oP72hgA/edit?tab=t.0
+### https://c-22-38-t-databi.onrender.com/
+
 
 # Etapas del Proyecto:
 ## Etapa 0:
@@ -75,10 +78,26 @@
 ### 4.- Analizamos que herramienta para graficar esta data y mostrar su informacion de manera dinamica en un dashboard utilizaremos Power Bi o RStudio
 
 ### 5.- Se inicia la integracion a traves de Django con la vista y el template de usuario, comenzando a recibir data para analizar y ajustar resultados para lograr asi la prediccion y alcanzar nuestro objetivo mayor, " Crear un sitio web que nos permita, por medio de un input,como interfaz de usuario, recibir una Url y de manera interna con el modelo ya entrenado predecir, si, esta Url es phishing o segura, pintando esa informacion al usuario
-### Adjunto primeros inicios de integracion de codigo, en Django + Vista + Template:
-![alt text](input_url.png)
+### Integracion de codigo, en Django + Vista + Template:
+![alt text](detector_.png)
 ### Ingresamos Url desde pagina web
 
 ![alt text](integracion_01.png)
 
 ### Se captura url ingresada y se conecta a vista + template de Django, esto da inicio a los posteriores ajustes para la interpretacion y su pediccion
+
+# Etapa 3
+### Tenemos conexion y prediccion, resultado de la depuracion de cada detalle en Django
+
+![alt text](safe_.png)
+### Aqui se observa una predicion de "Seguridad" en la Url
+
+![alt text](phishing_.png)
+### Aqui observamos una prediccion de "Inseguridad" en la Url ingresada
+
+## Nustro sitio de Deploy en Render luce asi
+![alt text](rend_01.png)
+![alt text](rend_02.png)
+
+
+## Nuestros proximos pasos para incrementar el mejor ajuste de prediccion, al modelo de Redes seleccionado, es, continuar entrenandolo para mejorar el resultado,esto se traduce en: maximizar los aciertos y disminuir los errores
