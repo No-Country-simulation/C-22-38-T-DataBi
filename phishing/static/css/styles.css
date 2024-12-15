@@ -8,7 +8,38 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    background-color: #333;
+    padding: 10px;
+}
+.navbar button {
+    background-color: #111111; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    margin-left: 10px; /* Espacio entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+.navbar button:hover {
+    background-color: #626462; /* Color de fondo al pasar el ratón */
+}
+.menu {
+    display: none; /* Oculta el menú por defecto */
+    flex-direction: column; /* Disposición vertical del menú */
+    position: absolute; /* Posiciona el menú en relación al contenedor */
+    right: 10px; /* Alinea a la derecha */
+    top: 50px; /* Espacio desde la parte superior */
+    background-color: #333; /* Color de fondo del menú desplegable */
+    border-radius: 5px; /* Bordes redondeados */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+}
+.menu button {
+    width: 100%; /* Los botones ocupan todo el ancho del menú */
+    margin-top: 5px; /* Espacio entre botones */
+}
 body {
     text-align: center; /* Centra el contenido en línea dentro del body */
 }
