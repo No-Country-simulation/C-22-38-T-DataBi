@@ -111,3 +111,13 @@
 
 
 ## Nuestros proximos pasos para incrementar el mejor ajuste de prediccion, al modelo de Redes seleccionado, es, continuar entrenandolo para mejorar el resultado,esto se traduce en: maximizar los aciertos y disminuir los errores
+
+# Como ejecutar proyecto
+### 1.- Crea en tu carpeta local un ambiente virtual(activarlo)
+### 2.- Luego descarga este proyecto a tu  equipo local, puedes ejecutar el siguiente comando:
+### 3.- git clone + "url del proyecto"
+### 4.- pip install -r requirements.txt
+### 5.- python manage.py makemigrations
+### 6.- python manage.py migrate
+### 7.- python manage.py runserver
+### En esta etapa ya tendras el proyecto en tu equipo local
