@@ -31,6 +31,14 @@
 ## Etapa 1:
 ### Preparación del dataset, esto implica, filtrar duplicados, columnas vacías, valores NaN..etc
 ### Agregar , desde nuestro análisis previo, nuevas columnas al dataset, que enriquezcan el análisis de cada Url, adjunta
+### Análisis del dataset con lenguaje R, IDE Rstudio. Generación de graficos.
+![image](https://github.com/user-attachments/assets/a2aceaad-4f2e-48bc-a70e-4168f593b372)
+
+
+
+### Generación de dashboar interactivo que permite visualizar datos de manera dinamica.Se agregó segmentaciones y filtros para la visualización.
+
+
 ### Normalizar sus valores,esto permitirá acotar, cada dato, de cada registro entre el rango [0, 1]
 ### Aplicar al dataset ya normalizado, la varianza a sus valores, esto nos permitirá seleccionar columnas, es decir, se eliminarán aquellas columnas cuya varianza se acerque a 0
 
