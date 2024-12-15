@@ -99,5 +99,15 @@
 ![alt text](rend_01.png)
 ![alt text](rend_02.png)
 
+#Urls utilizadas para validar proyecto en Etapa 3
+
+### http://samro-org--za.com/login_jmu_edu/oaam_server/login.do.html
+
+### http://draywalejohn.com/Google/
+
+### https://www.canva.com/design/DAGXsNOFops/nNKwINnRy7BO8I_Lqlu8ng/edit
+
+### https://docs.google.com/document/d/1j2Ob6vEjVb7CQWHtOpqNQO-oc4sK0oOYYo03oP72hgA/edit?tab=t.0
+
 
 ## Nuestros proximos pasos para incrementar el mejor ajuste de prediccion, al modelo de Redes seleccionado, es, continuar entrenandolo para mejorar el resultado,esto se traduce en: maximizar los aciertos y disminuir los errores
