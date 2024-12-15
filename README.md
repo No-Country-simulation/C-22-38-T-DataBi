@@ -40,6 +40,7 @@
 ### 1.- Gradiente de Boosting
 ### 2.- Random Forest
 ### 3.- Regresión Logística
+### 4.- Redes Neuronales
 ### Seleccionaremos el algoritmo, que , al ser entrenado, nos entregue el "Mejor Resultado".
 ### El  criterio para definir el "Mejor Resultado", implica maximizar los aciertos y disminuir los errores
 
